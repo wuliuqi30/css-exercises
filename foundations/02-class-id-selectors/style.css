@@ -7,3 +7,13 @@
 .fs-24 {
     font-size: 24px;
 }
+
+#bluebig {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#greenbold {
+    background-color:#78e178;
+    font-weight: bold;
+}
