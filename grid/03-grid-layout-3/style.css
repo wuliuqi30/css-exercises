@@ -9,7 +9,7 @@
   display: grid;
   
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 3fr 1fr 10fr 1fr;
+  grid-template-rows: 2fr 1fr 10fr 1fr;
   gap: 20px;
 }
 
@@ -29,13 +29,26 @@
   grid-template-columns: 1fr 4fr;
 }
 
+.header .logo{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .menu{
+margin-left:auto;
+}
 
 
 .header ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  direction: rtl; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100%;
+  align-items:center;
+  gap:20px;
 }
+
+
 
 .menu ul,
 .menu li {
@@ -44,9 +57,7 @@
   min-width: 130px;
 }
 
-.menu li {
 
-}
 
 .sidebar {
   background-color: #C50208;
@@ -84,8 +95,9 @@
 .nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  list-style-type: none
-
+  list-style-type: none;
+  height: 100%;
+  align-items:center;
 
 }
 
@@ -131,9 +143,13 @@
 .footer {
   background-color: #393f4d;
   grid-column: 1 / 3;
+  align-items: center;
+  display:grid;
 }
 
 .footer p {
   font-size: 13px;
   font-weight: normal;
+
+  
 }
